@@ -1,0 +1,376 @@
+.page-data-deletion {
+  background: #f4f7fa;
+  color: #24364b;
+}
+
+.deletion-caption {
+  background: linear-gradient(135deg, #20334d 0%, #2d5671 100%);
+  padding: 54px 0 58px;
+}
+
+.deletion-caption .container {
+  max-width: 980px;
+  width: 100%;
+}
+
+.deletion-eyebrow,
+.deletion-step-label {
+  color: #62db5c;
+  display: block;
+  font-family: CeraProBold, CeraPro, sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.8px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.deletion-caption .caption {
+  font-family: CeraProBold, CeraPro, sans-serif;
+  font-size: 54px;
+  line-height: 1.08;
+}
+
+.deletion-caption-copy {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 20px;
+  margin: 18px auto 0;
+  max-width: 720px;
+}
+
+.deletion-section {
+  padding: 64px 0;
+}
+
+.deletion-section-alt {
+  background: #fff;
+}
+
+.deletion-section-dark {
+  background: #25384f;
+  color: #fff;
+}
+
+.deletion-summary-card {
+  align-items: center;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 18px 45px rgba(27, 48, 72, 0.12);
+  display: flex;
+  justify-content: space-between;
+  margin-top: -96px;
+  padding: 30px 34px;
+  position: relative;
+}
+
+.deletion-summary-card h2 {
+  font-family: CeraProBold, CeraPro, sans-serif;
+  margin: 0 0 7px;
+}
+
+.deletion-summary-card .deletion-step-label {
+  color: #398b35;
+  margin-bottom: 8px;
+}
+
+.deletion-package {
+  color: #60738a;
+  font-size: 15px;
+  margin: 0;
+}
+
+.deletion-text-link {
+  border-bottom: 2px solid #33bd2d;
+  color: #246320;
+  font-family: CeraProBold, CeraPro, sans-serif;
+  margin-left: 30px;
+  padding-bottom: 4px;
+  white-space: nowrap;
+}
+
+.deletion-text-link:hover,
+.deletion-text-link:focus {
+  color: #178d12;
+  text-decoration: none;
+}
+
+.deletion-lead {
+  font-size: 19px;
+  line-height: 1.65;
+  margin: 46px auto 0;
+  max-width: 850px;
+}
+
+.deletion-section-heading {
+  margin-bottom: 30px;
+  max-width: 780px;
+}
+
+.deletion-section-heading h2 {
+  color: #1f334c;
+  font-family: CeraProBold, CeraPro, sans-serif;
+  font-size: 36px;
+  margin: 0 0 12px;
+}
+
+.deletion-section-heading p {
+  color: #5f7186;
+  line-height: 1.6;
+}
+
+.deletion-form {
+  background: #f6f8fa;
+  border: 1px solid #dce4eb;
+  border-radius: 12px;
+  max-width: 920px;
+  padding: 32px;
+}
+
+.deletion-form label,
+.deletion-fieldset legend {
+  color: #24364b;
+  font-family: CeraProBold, CeraPro, sans-serif;
+  font-size: 16px;
+}
+
+.deletion-form .form-control {
+  border: 1px solid #b9c6d2;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #17283b;
+  font-size: 16px;
+  height: 48px;
+}
+
+.deletion-form textarea.form-control {
+  height: auto;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+.deletion-form .form-control:focus {
+  border-color: #299c24;
+  box-shadow: 0 0 0 3px rgba(51, 189, 45, 0.14);
+}
+
+.deletion-help,
+.deletion-mail-fallback {
+  color: #687b90;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 8px 0 0;
+}
+
+.deletion-other-game {
+  border-left: 3px solid #33bd2d;
+  margin: 5px 0 24px;
+  padding-left: 18px;
+}
+
+.deletion-fieldset {
+  border: 0;
+  margin: 8px 0 26px;
+  min-width: 0;
+  padding: 0;
+}
+
+.deletion-fieldset legend {
+  border: 0;
+  margin-bottom: 12px;
+}
+
+.deletion-radio {
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #d5dee6;
+  border-radius: 7px;
+  cursor: pointer;
+  display: flex;
+  margin: 0 0 10px;
+  padding: 15px 17px;
+}
+
+.deletion-radio input {
+  margin: 4px 12px 0 0;
+}
+
+.deletion-radio strong,
+.deletion-radio small {
+  display: block;
+}
+
+.deletion-radio small {
+  color: #687b90;
+  font-family: CeraPro, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  margin-top: 3px;
+}
+
+.deletion-notice {
+  background: #eaf5e9;
+  border-radius: 7px;
+  color: #31552f;
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 8px 0 22px;
+  padding: 14px 16px;
+}
+
+.deletion-form-error {
+  background: #fff1f0;
+  border: 1px solid #f1b5b0;
+  border-radius: 6px;
+  color: #a62a22;
+  font-size: 15px;
+  margin: 0 0 16px;
+  padding: 12px 14px;
+}
+
+.deletion-submit {
+  background: #2bbf25;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  font-family: CeraProBold, CeraPro, sans-serif;
+  padding: 13px 24px 11px;
+}
+
+.deletion-submit:hover,
+.deletion-submit:focus,
+.deletion-submit:active {
+  background: #20a91b;
+  color: #fff;
+}
+
+.deletion-card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.deletion-card-row > div {
+  display: flex;
+}
+
+.deletion-info-card {
+  background: #fff;
+  border-top: 4px solid #33bd2d;
+  box-shadow: 0 8px 28px rgba(36, 54, 75, 0.08);
+  min-height: 100%;
+  padding: 26px;
+}
+
+.deletion-card-number {
+  color: #8ca0b4;
+  font-family: CeraProBold, CeraPro, sans-serif;
+  font-size: 14px;
+}
+
+.deletion-info-card h3 {
+  color: #21354d;
+  font-family: CeraProBold, CeraPro, sans-serif;
+  font-size: 24px;
+  margin: 12px 0;
+}
+
+.deletion-info-card p {
+  color: #5e7185;
+  font-size: 16px;
+  line-height: 1.58;
+  margin: 0;
+}
+
+.deletion-detail-block {
+  padding-right: 25px;
+}
+
+.deletion-detail-block h2 {
+  color: #fff;
+  font-family: CeraProBold, CeraPro, sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.deletion-detail-block p,
+.deletion-detail-block li {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.deletion-detail-block ul {
+  padding-left: 20px;
+}
+
+.deletion-detail-block li {
+  margin-bottom: 8px;
+}
+
+.deletion-local-data {
+  background: #fff;
+  border-left: 5px solid #33bd2d;
+  box-shadow: 0 8px 28px rgba(36, 54, 75, 0.08);
+  line-height: 1.65;
+  padding: 26px 30px 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .deletion-caption {
+    padding: 38px 20px 48px;
+  }
+
+  .deletion-caption .caption {
+    font-size: 38px;
+  }
+
+  .deletion-caption-copy {
+    font-size: 17px;
+  }
+
+  .deletion-section {
+    padding: 45px 0;
+  }
+
+  .deletion-summary-card {
+    align-items: flex-start;
+    display: block;
+    margin-top: -78px;
+    padding: 24px;
+  }
+
+  .deletion-text-link {
+    display: inline-block;
+    margin: 20px 0 0;
+    white-space: normal;
+  }
+
+  .deletion-lead {
+    font-size: 17px;
+    margin-top: 34px;
+  }
+
+  .deletion-section-heading h2 {
+    font-size: 30px;
+  }
+
+  .deletion-form {
+    padding: 22px 18px;
+  }
+
+  .deletion-card-row {
+    display: block;
+  }
+
+  .deletion-card-row > div {
+    display: block;
+  }
+
+  .deletion-info-card {
+    margin-bottom: 18px;
+    min-height: 0;
+  }
+
+  .deletion-detail-block {
+    margin-bottom: 40px;
+    padding-right: 0;
+  }
+}

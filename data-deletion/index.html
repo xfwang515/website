@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Game Data Deletion - Coolgc</title>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+    <meta charset="utf-8" />
+    <meta
+      content="Request deletion of your Coolgc game account, profile, and associated game data."
+      name="description"
+    />
+    <link href="../static/images/favicon.ico" rel="shortcut icon" />
+    <link href="../static/libs/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../static/styles/main.css" rel="stylesheet" />
+    <link href="data-deletion.css" rel="stylesheet" />
+  </head>
+  <body class="page-data-deletion" ontouchstart="">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="main-nav" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            class="navbar-toggle collapsed"
+            data-target="#navbar-ex1-collapse"
+            data-toggle="collapse"
+            type="button"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">
+            <img alt="Coolgc" src="../static/images/coolgc-logo.png" />
+          </a>
+        </div>
+        <nav class="collapse navbar-collapse" id="navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../index.html">Mobile games</a></li>
+            <li><a href="../company/index.html">Company</a></li>
+            <li><a href="../contact-us/index.html">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
+
+    <header class="page-caption deletion-caption">
+      <div class="container">
+        <p class="deletion-eyebrow">Coolgc Privacy Center</p>
+        <h1 class="caption">Game Data Deletion</h1>
+        <p class="deletion-caption-copy">
+          Request deletion of your game account, profile, or associated data without reinstalling the game.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="deletion-section deletion-intro">
+        <div class="container tight">
+          <div class="deletion-summary-card">
+            <div>
+              <span class="deletion-step-label">Selected game</span>
+              <h2 id="selected-game-name">Choose your Coolgc game</h2>
+              <p class="deletion-package">
+                Android package: <strong id="selected-package-name">Not selected</strong>
+              </p>
+            </div>
+            <a class="deletion-text-link" href="#request-form">Start a deletion request</a>
+          </div>
+
+          <div class="deletion-lead">
+            <p>
+              Coolgc provides this page for players of our games. You can use it to request deletion of an
+              account and its associated data, or to ask us to delete specific data only.
+            </p>
+            <p>
+              Not every Coolgc game creates a Coolgc server account. If your selected game stores data only on
+              your device, see <a href="#local-data">Local data</a> below. You may still contact us to ask
+              whether we hold server-side data linked to your player ID.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="deletion-section deletion-section-alt" id="request-form">
+        <div class="container tight">
+          <div class="deletion-section-heading">
+            <span class="deletion-step-label">Step 1</span>
+            <h2>Prepare your request</h2>
+            <p>
+              This static page opens your email app with the request details filled in. Nothing entered here is
+              sent until you review and send the email yourself.
+            </p>
+          </div>
+
+          <form class="deletion-form" id="deletion-request-form" novalidate>
+            <div class="form-group">
+              <label for="game-select">Game</label>
+              <select class="form-control" id="game-select" required>
+                <option value="">Select a game</option>
+                <option value="gemsort">Gem Sorting Puzzle</option>
+                <option value="other">Other Coolgc game</option>
+              </select>
+              <p class="deletion-help">Gem Sorting Puzzle package: com.coolgc.gemsort</p>
+            </div>
+
+            <div class="deletion-other-game" id="other-game-fields" hidden>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="other-game-name">Game name</label>
+                    <input
+                      class="form-control"
+                      id="other-game-name"
+                      maxlength="100"
+                      placeholder="Enter the game name"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="other-package-name">Android package (if known)</label>
+                    <input
+                      class="form-control"
+                      id="other-package-name"
+                      maxlength="150"
+                      placeholder="For example, com.coolgc.game"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <fieldset class="deletion-fieldset">
+              <legend>What would you like us to delete?</legend>
+              <label class="deletion-radio">
+                <input checked name="request-type" type="radio" value="account" />
+                <span>
+                  <strong>Delete my account and associated data</strong>
+                  <small>This permanently deletes the account rather than disabling or freezing it.</small>
+                </span>
+              </label>
+              <label class="deletion-radio">
+                <input name="request-type" type="radio" value="data" />
+                <span>
+                  <strong>Delete selected data only</strong>
+                  <small>Describe the data you want deleted in the details field below.</small>
+                </span>
+              </label>
+            </fieldset>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="player-id">Player ID or account ID</label>
+                  <input
+                    autocomplete="off"
+                    class="form-control"
+                    id="player-id"
+                    maxlength="120"
+                    placeholder="Find this in the game's settings or profile"
+                    required
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="contact-email">Contact email</label>
+                  <input
+                    autocomplete="email"
+                    class="form-control"
+                    id="contact-email"
+                    maxlength="254"
+                    placeholder="Email we can reply to"
+                    required
+                    type="email"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="request-details">Additional details (optional)</label>
+              <textarea
+                class="form-control"
+                id="request-details"
+                maxlength="1500"
+                placeholder="For example: profile name, platform, or the specific data you want deleted"
+                rows="5"
+              ></textarea>
+            </div>
+
+            <div class="deletion-notice">
+              <strong>For your safety:</strong> never send us your password, payment card number, or Google Play
+              password. We may ask you to verify ownership using information connected to the account.
+            </div>
+
+            <p class="deletion-form-error" id="form-error" role="alert" hidden></p>
+            <button class="btn btn-lg deletion-submit" type="submit">Open deletion request email</button>
+            <p class="deletion-mail-fallback">
+              If the button does not open an email app, send your request to
+              <a href="mailto:privacy@coolgc.com">privacy@coolgc.com</a> and include the game name, package name,
+              player ID, contact email, and requested deletion scope.
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <section class="deletion-section">
+        <div class="container tight">
+          <div class="deletion-section-heading">
+            <span class="deletion-step-label">Step 2</span>
+            <h2>What happens next</h2>
+          </div>
+          <div class="row deletion-card-row">
+            <div class="col-sm-4">
+              <article class="deletion-info-card">
+                <span class="deletion-card-number">01</span>
+                <h3>We verify</h3>
+                <p>
+                  We reply to confirm receipt and may request limited information needed to verify that you control
+                  the account or player ID.
+                </p>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article class="deletion-info-card">
+                <span class="deletion-card-number">02</span>
+                <h3>We delete</h3>
+                <p>
+                  After verification, we delete the requested account and associated data from systems controlled by
+                  Coolgc, subject to the limited retention described below.
+                </p>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article class="deletion-info-card">
+                <span class="deletion-card-number">03</span>
+                <h3>We confirm</h3>
+                <p>
+                  We normally complete a verified request within 30 days and email you when processing is complete,
+                  or explain if applicable law allows additional time.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="deletion-section deletion-section-dark">
+        <div class="container tight">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="deletion-detail-block">
+                <h2>Data covered by a full deletion request</h2>
+                <ul>
+                  <li>Your Coolgc account and internal player identifiers, if an account exists.</li>
+                  <li>Profile information such as display name, avatar, and linked contact information.</li>
+                  <li>Cloud-saved progress, game settings, virtual inventory, and achievement records we control.</li>
+                  <li>Social, leaderboard, event, and support data associated with the account, where applicable.</li>
+                </ul>
+                <p>
+                  The exact categories depend on the selected game and the features you used. Deleting an account is
+                  permanent and may make purchases, progress, or virtual items unavailable in that game.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="deletion-detail-block">
+                <h2>Limited data we may retain</h2>
+                <p>
+                  We may retain limited records only when required for legal, tax, accounting, security,
+                  fraud-prevention, dispute-resolution, or platform obligations. Retained records are access-restricted
+                  and are not used to continue gameplay or personalized advertising.
+                </p>
+                <p>
+                  If this applies to your request, our confirmation will identify the retained category, the reason,
+                  and the applicable retention period. The data will be deleted or anonymized when that reason expires.
+                </p>
+                <p>
+                  Data controlled independently by Google Play, Apple, an advertising provider, or another third party
+                  must be managed through that provider's privacy controls.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="deletion-section" id="local-data">
+        <div class="container tight">
+          <div class="deletion-section-heading">
+            <h2>Local data on your device</h2>
+          </div>
+          <div class="deletion-local-data">
+            <p>
+              If the game does not create a server account, you can remove locally stored progress and settings from
+              Android by opening <strong>Settings &gt; Apps &gt; the game &gt; Storage &gt; Clear storage</strong>.
+              Uninstalling the game may also remove local data, depending on your device and backup settings.
+            </p>
+            <p>
+              Clearing local data does not itself delete any server-side records. Use the request form above if you
+              also want us to check for and delete data associated with your player ID.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="links">
+          <a href="../privacy/index.html">PRIVACY&nbsp;POLICY</a>
+          <a href="../terms/index.html">TERMS&nbsp;of&nbsp;USE</a>
+          <a href="index.html">DATA&nbsp;DELETION</a>
+        </p>
+        <p class="footer-social">
+          <a class="logo_footer" href="../index.html">
+            <img alt="Coolgc" src="../static/images/coolgc-logo.png" />
+          </a>
+        </p>
+        <p class="copyright">©2019 Coolgc</p>
+      </div>
+    </footer>
+
+    <script src="../static/libs/js/jquery.min.js"></script>
+    <script src="../static/libs/js/bootstrap.min.js"></script>
+    <script src="../static/js/cookie-message.js"></script>
+    <script src="data-deletion.js"></script>
+  </body>
+</html>
