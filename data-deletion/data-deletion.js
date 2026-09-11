@@ -3,9 +3,57 @@
 
   // 每款游戏的公开名称和包名只在这里维护，避免页面各处出现不一致。
   var games = {
+    blastpenguin: {
+      name: "Blast Penguin: Cube Puzzle",
+      packageName: "com.coolgc.blastpenguin"
+    },
+    bubblepenguin: {
+      name: "Bubble Penguin: Bubble Shooter",
+      packageName: "com.coolgc.bubblepenguin"
+    },
+    dominopenguin: {
+      name: "Domino Penguin: Merge & Match",
+      packageName: "com.coolgc.dominopenguin"
+    },
+    "fruit-orb-factory": {
+      name: "Fruit Orb Factory",
+      packageName: "com.coolgc.fruit.orb.factory"
+    },
+    fruitsplash: {
+      name: "Fruit Splash: Home Makeover",
+      packageName: "com.coolgc.fruitsplash"
+    },
     gemsort: {
-      name: "Gem Sorting Puzzle",
+      name: "Jewel Block Sort: Color Puzzle",
       packageName: "com.coolgc.gemsort"
+    },
+    homedesigner: {
+      name: "Lila’s Dream Home: Match 3",
+      packageName: "com.coolgc.homedesigner"
+    },
+    penguinfriendsmatch: {
+      name: "Penguin Friends: Match 3",
+      packageName: "com.coolgc.penguinfriendsmatch"
+    },
+    linkpenguin: {
+      name: "Penguin Fruit Link",
+      packageName: "com.coolgc.linkpenguin"
+    },
+    puzzlestories: {
+      name: "Puzzle Stories: Jigsaw Puzzles",
+      packageName: "com.coolgc.puzzlestoies"
+    },
+    tilepenguin: {
+      name: "Tile Penguin: Match 3 Tiles",
+      packageName: "com.coolgc.tilepenguin"
+    },
+    bubblesquirrel: {
+      name: "Treetop Pop: Rescue & Rebuild",
+      packageName: "com.coolgc.bubblesquirrel"
+    },
+    triplepenguin: {
+      name: "Triple Penguin: Goods Sort",
+      packageName: "com.coolgc.triplepenguin"
     }
   };
 
