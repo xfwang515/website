@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.coolgc.com/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coolgc.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.coolgc.com/zh/" />
+  </url>
+  <url>
+    <loc>https://www.coolgc.com/zh/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coolgc.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.coolgc.com/zh/" />
+  </url>
+  <url>
+    <loc>https://www.coolgc.com/company/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coolgc.com/company/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.coolgc.com/zh/company/" />
+  </url>
+  <url>
+    <loc>https://www.coolgc.com/zh/company/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coolgc.com/company/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.coolgc.com/zh/company/" />
+  </url>
+  <url>
+    <loc>https://www.coolgc.com/contact-us/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coolgc.com/contact-us/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.coolgc.com/zh/contact-us/" />
+  </url>
+  <url>
+    <loc>https://www.coolgc.com/zh/contact-us/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coolgc.com/contact-us/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.coolgc.com/zh/contact-us/" />
+  </url>
+  <url>
+    <loc>https://www.coolgc.com/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://www.coolgc.com/terms/</loc>
+  </url>
+  <url>
+    <loc>https://www.coolgc.com/data-deletion/</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+</urlset>
