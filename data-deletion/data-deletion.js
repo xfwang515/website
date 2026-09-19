@@ -136,7 +136,7 @@
       "Thank you."
     ].join("\n");
 
-    window.location.href = "mailto:privacy@coolgc.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    window.location.href = "mailto:contact@coolgc.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
   }
 
   // Play Console 可以使用 ?app=gemsort，让审核人员直接看到匹配的游戏名称和包名。
