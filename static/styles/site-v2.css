@@ -713,6 +713,7 @@ a {
 
 .footer-brand img {
   width: 124px;
+  height: auto;
   filter: brightness(0) invert(1);
 }
 
